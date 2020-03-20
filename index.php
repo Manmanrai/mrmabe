@@ -17,7 +17,7 @@
   </head>
   <body>
     <div class="page-wrapper"><a class="contact" href="#">CONTACT</a><a class="hello" href="#" id="modal_button">HELLO</a>
-      <aside><img class="circle" src="./img/circle.svg" alt="circle"/>
+      <aside><img class="circle-map" src="./img/circle_map.svg" alt="circle"/><img class="circle" src="./img/circle_text.svg" alt="circle"/>
         <section class="content">
           <h1> <img src="./img/reprise_logo.svg" alt="Reprise"/></h1>
           <h2 class="bio">THIS IS <br/>SHIGETAKA MABE <br/>PORTFOLIO WEBSITE</h2>
@@ -25,11 +25,11 @@
         </section>
         <div class="sns">
           <ul>
-            <li><a href="#"><img src="./img/sns/twitter.svg" alt="twitter"/></a></li>
-            <li><a href="#"><img src="./img/sns/facebook.svg" alt="facebook"/></a></li>
-            <li><a href="#"><img src="./img/sns/insta.svg" alt="insta"/></a></li>
-            <li><a href="#"><img src="./img/sns/Spotify.svg" alt="Spotify"/></a></li>
-            <li><a href="#"><img src="./img/sns/suzuri.svg" alt="suzuri"/></a></li>
+            <li><a href="https://twitter.com/shgtk" target="_blank"><img src="./img/sns/twitter.svg" alt="twitter"/></a></li>
+            <li><a href="https://www.facebook.com/shgtk" target="_blank"><img src="./img/sns/facebook.svg" alt="facebook"/></a></li>
+            <li><a href="https://www.instagram.com/shgtkgram/" target="_blank"><img src="./img/sns/insta.svg" alt="insta"/></a></li>
+            <li><a href="https://open.spotify.com/user/shgtk" target="_blank"><img src="./img/sns/Spotify.svg" alt="Spotify"/></a></li>
+            <li><a href="https://suzuri.jp/shgtk" target="_blank"><img src="./img/sns/suzuri.svg" alt="suzuri"/></a></li>
           </ul>
         </div>
       </aside>
@@ -38,14 +38,14 @@
           <div>
             <h4>LATEST NUMBER</h4>
             <ul>
-              <li><a href="#">GREEN RIBBON<img src="./img/work/greenribbon.png" alt="GREEN RIBBON"/></a></li>
-              <li><a href="#">SMARTNEWS AWARDS<img src="./img/work/smartnews.png" alt="SMARTNEWS AWARDS"/></a></li>
-              <li><a href="#">FICHVITA<img src="./img/work/fichvita.png" alt="FICHVITA"/></a></li>
-              <li><a href="#">LIFULL RECRUIT<img src="./img/work/lifull.png" alt="LIFULL RECRUIT"/></a></li>
-              <li><a href="#">SOJITZ BUSINESS JET<img src="./img/work/sojitzbizjet.png" alt="SOJITZ BUSINESS JET"/></a></li>
-              <li><a href="#">HITACHI KENKI</a></li>
-              <li><a href="#">AGEHA inc<img src="./img/work/ageha.png" alt="AGEHA inc"/></a></li>
-              <li><a href="#">AGEHA RECRUIT<img src="./img/work/ageharecruit.png" alt="AGEHA RECRUIT"/></a></li>
+              <li><a href="https://green-ribbon.com/" target="_blank">GREEN RIBBON<img src="./img/work/greenribbon.png" alt="GREEN RIBBON"/></a></li>
+              <li><a href="https://awards.smartnews.com/" target="_blank">SMARTNEWS AWARDS<img src="./img/work/smartnews.png" alt="SMARTNEWS AWARDS"/></a></li>
+              <li><a href="https://fichvita.com/" target="_blank">FICHVITA<img src="./img/work/fichvita.png" alt="FICHVITA"/></a></li>
+              <li><a href="http://recruit.lifull.com/" target="_blank">LIFULL RECRUIT<img src="./img/work/lifull.png" alt="LIFULL RECRUIT"/></a></li>
+              <li><a href="http://www.sojitz-bizjet.com/" target="_blank">SOJITZ BUSINESS JET<img src="./img/work/sojitzbizjet.png" alt="SOJITZ BUSINESS JET"/></a></li>
+              <li><a href="https://www.hitachicm.com/global/jp/recruit/newgraduate/index.html" target="_blank">HITACHI KENKI</a></li>
+              <li><a href="https://ageha.tv/" target="_blank">AGEHA inc<img src="./img/work/ageha.png" alt="AGEHA inc"/></a></li>
+              <li><a href="https://ageha-recruit.tv/" target="_blank">AGEHA RECRUIT<img src="./img/work/ageharecruit.png" alt="AGEHA RECRUIT"/></a></li>
             </ul>
           </div>
         </div>
@@ -60,14 +60,14 @@
       </div>
       <div class="modal-table">
         <div class="modal-cell">
-          <p class="modal-about">HELLO EVERYTHING<br/>My name is SHIGETAKA MABE<br/>I’M ART DIRECTOR / DIGITAL DESINGER<br/>Based in East Tokyo with my daughter.</p>
+          <p class="modal-about">HELLO EVERYTHING<br/>My name is SHIGETAKA MABE<br/>I’M ART DIRECTOR / DIGITAL DESIGNER<br/>Based in East Tokyo with my <span class="daughter">daughter</span>.</p>
           <div class="sns">
             <ul>
-              <li><a href="#"><img src="./img/sns/twitter.svg" alt="twitter"/></a></li>
-              <li><a href="#"><img src="./img/sns/facebook.svg" alt="facebook"/></a></li>
-              <li><a href="#"><img src="./img/sns/insta.svg" alt="insta"/></a></li>
-              <li><a href="#"><img src="./img/sns/Spotify.svg" alt="Spotify"/></a></li>
-              <li><a href="#"><img src="./img/sns/suzuri.svg" alt="suzuri"/></a></li>
+              <li><a href="https://twitter.com/shgtk" target="_blank"><img src="./img/sns/twitter.svg" alt="twitter"/></a></li>
+              <li><a href="https://www.facebook.com/shgtk" target="_blank"><img src="./img/sns/facebook.svg" alt="facebook"/></a></li>
+              <li><a href="https://www.instagram.com/shgtkgram/" target="_blank"><img src="./img/sns/insta.svg" alt="insta"/></a></li>
+              <li><a href="https://open.spotify.com/user/shgtk" target="_blank"><img src="./img/sns/Spotify.svg" alt="Spotify"/></a></li>
+              <li><a href="https://suzuri.jp/shgtk" target="_blank"><img src="./img/sns/suzuri.svg" alt="suzuri"/></a></li>
             </ul>
           </div>
         </div>
