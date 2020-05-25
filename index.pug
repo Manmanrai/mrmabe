@@ -12,115 +12,162 @@ html(lang="ja")
 		meta(property="og:title", content='間部さん')
 		meta(property="og:description", content="")
 		meta(property="og:image", content= '')
+		<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
 		link(rel="stylesheet",href="./css/style.css")
-		link(rel="shortcut icon", href="./favicon.ico", type="image/vnd.microsoft.icon")
+		//- link(rel="shortcut icon", href="./favicon.ico", type="image/vnd.microsoft.icon")
 	body
-		.page-wrapper
-			a(href="#").contact CONTACT
-			a(href="#" id="modal_button").hello HELLO
-			aside
-				img(src="./img/circle_map.svg", alt="circle").circle-map
-				img(src="./img/circle_text.svg", alt="circle").circle
-				section.content
-					h1 
-						img(src="./img/reprise_logo.svg", alt="Reprise")
-					h2.bio THIS IS #[br]SHIGETAKA MABE #[br]PORTFOLIO WEBSITE
-					h3.location ART DIRECTOR / DIGITAL DESIGNER#[br]Based in East Tokyo
+		header
+			.page-wrapper
+				a(href="/").logo
+					img(src="./img/logo.png", alt="")
+				.float-right
+					span.menu
+						img(src="./img/icon-menu.png", alt="menu")
+			nav
+				ul
+					li
+						a(href="#") SERVICE 
+					li
+						a(href="#") WORKS
+					li
+						a(href="#") COMPANY
+					li
+						a(href="#") CONTACT
+		main
+			section.news-section
+				img(src="./img/img-kv-sp.jpg", alt="").sp
+				img(src="./img/img-kv.jpg", alt="").pc
+				.page-wrapper
+					h1 Advertise
+						br 
+						| Strategy 
+						br
+						| for OnlineShop
+					h2 売上を上げるECコンサルティング
+				div.news
+					p.news-title NEWS
+					dl.news-list
+						dt 2020.06.01
+						dd Webサイトをオープンしました。
+			section.about-section
+				.page-wrapper
+					h3 what we are
+					p
+						span.wsnr 2020年現在、
+						span.wsnr 消費者行動の多くがデジタルシフトし、
+						span.wsnr デジタルマーケティングが企業戦略の
+						span.wsnr 中心になってきています。
+						span.wsnr しかし、
+						span.wsnr あらゆるデータが溢れてきている中、
+						span.wsnr データを有効活用して
+						span.wsnr 消費者の生活を豊かにしている企業は
+						span.wsnr どのくらいあるでしょうか。
+					p
+						span.wsnr 我々EC戦略のプロ集団 STARONLINEは、
+						span.wsnr データの価値を最大化し、
+						span.wsnr デジタルの可能性を拡大することが
+						span.wsnr 人類の幸福に繋がると考えています。
+						span.wsnr そして、昨今の新型コロナウイルスが
+						span.wsnr もたらした生活環境の変化は、
+						span.wsnr 結果としてより一層デジタルの価値を
+						span.wsnr 再認識する機会となっているのでは
+						span.wsnr ないでしょうか。
+					p
+						span.wsnr デジタルマーケティングの未来を
+						span.wsnr アップデートする、ONLINEのSTAR、
+						span.wsnr 私たちが”STARONLINE”です。
+			section.service-section
+				.page-wrapper
+					h3 service
+					p データの価値を最大化するSTARONLINEの#[span.wsnr 事業内容]をご説明いたします。
+					a(href="#").more-btn view more
+			section.works-section
+				.page-wrapper
+					h3 works
+					p データの価値を最大化する、STARONLINEの成功事例をご紹介いたします。
+				.swiper-container
+					.swiper-wrapper
+						.swiper-slide
+							dl
+								dt
+									img(src="./img/img-works-01.png", alt="")
+								dd
+									p 01
+									p Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN
+									p 初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作
+									.text-right
+										a(href="#").more-btn view more
+						.swiper-slide
+							dl
+								dt
+									img(src="./img/img-works-01.png", alt="")
+								dd
+									p 02
+									p Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN
+									p 初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作
+									.text-right
+										a(href="#").more-btn view more
+						.swiper-slide
+							dl
+								dt
+									img(src="./img/img-works-01.png", alt="")
+								dd
+									p 03
+									p Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN
+									p 初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作
+									.text-right
+										a(href="#").more-btn view more
+						.swiper-slide
+							dl
+								dt
+									img(src="./img/img-works-01.png", alt="")
+								dd
+									p 03
+									p Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN
+									p 初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作
+									.text-right
+										a(href="#").more-btn view more
+					.swiper-pagination
+					.swiper-button-prev
+					.swiper-button-next
+			section.contact-section
+				.page-wrapper
+					a(href="#")
+						span contact
+						span.wsnr ご依頼、お見積もりなど、
+						span.wsnr こちらからお問い合わせ下さい。
+		footer
+			.page-wrapper
+				a(href="/").logo
+					img(src="./img/logo-wh.png", alt="")
+				p.copy-en Advertise
+					br
+					| Strategy 
+					br
+					| for OnlineShop
+				.sitemap.pc
+					ul
+						li
+							a(href="#") SERVICE 
+						li
+							a(href="#") WORKS
+						li
+							a(href="#") COMPANY
+						li
+							a(href="#") CONTACT
+				p.copy-ja 売上を上げるECコンサルティング
 				div.sns
 					ul
 						li
-							a(href="https://twitter.com/shgtk",target="_blank")
-								img(src="./img/sns/twitter.svg", alt="twitter")
+							a(href="#")
+								img(src="./img/icon-twitter.png", alt="twitter")
 						li
-							a(href="https://www.facebook.com/shgtk",target="_blank")
-								img(src="./img/sns/facebook.svg", alt="facebook")
-						li
-							a(href="https://www.instagram.com/shgtkgram/",target="_blank")
-								img(src="./img/sns/insta.svg", alt="insta")
-						li
-							a(href="https://open.spotify.com/user/shgtk",target="_blank")
-								img(src="./img/sns/Spotify.svg", alt="Spotify")
-						li
-							a(href="https://suzuri.jp/shgtk",target="_blank")
-								img(src="./img/sns/suzuri.svg", alt="suzuri")
-			article
-				img(src="./img/img_engaging.jpg", alt="engaging").engaging
-				div.works
-					div
-						h4 LATEST NUMBER
-						ul
-							li
-								a(href="https://green-ribbon.com/",target="_blank") GREEN RIBBON
-									img(src="./img/work/greenribbon.png", alt="GREEN RIBBON")
-							li
-								a(href="https://awards.smartnews.com/",target="_blank") SMARTNEWS AWARDS
-									img(src="./img/work/smartnews.png", alt="SMARTNEWS AWARDS")
-							li
-								a(href="https://fichvita.com/",target="_blank") FICHVITA
-									img(src="./img/work/fichvita.png", alt="FICHVITA")
-							li
-								a(href="http://recruit.lifull.com/",target="_blank") LIFULL RECRUIT
-									img(src="./img/work/lifull.png", alt="LIFULL RECRUIT")
-							li
-								a(href="http://www.sojitz-bizjet.com/",target="_blank") SOJITZ BUSINESS JET
-									img(src="./img/work/sojitzbizjet.png", alt="SOJITZ BUSINESS JET")
-							li
-								a(href="https://www.hitachicm.com/global/jp/recruit/newgraduate/index.html",target="_blank") HITACHI KENKI
-							li
-								a(href="https://ageha.tv/",target="_blank") AGEHA inc
-									img(src="./img/work/ageha.png", alt="AGEHA inc")
-							li
-								a(href="https://ageha-recruit.tv/",target="_blank") AGEHA RECRUIT
-									img(src="./img/work/ageharecruit.png", alt="AGEHA RECRUIT")
-		.modal
-			a(href="#").contact CONTACT
-			a(href="#" id="modal_back").hello BACK
-			div.modal-header
-				p.modal-background COMING SOON
-				p.modal-title
-					img(src="./img/reprise_logo.svg", alt="Reprise")
-				p.modal-subtitle.notosans リプリーズドットトーキョー
-				p.modal-reprise reprise.tokyo
-			
-			div.modal-table
-				div.modal-cell
-					p.modal-about HELLO EVERYTHING#[br]My name is SHIGETAKA MABE#[br]I’M ART DIRECTOR / DIGITAL DESIGNER#[br]Based in East Tokyo with my #[span.daughter daughter].
-					div.sns
-						ul
-							li
-								a(href="https://twitter.com/shgtk",target="_blank")
-									img(src="./img/sns/twitter.svg", alt="twitter")
-							li
-								a(href="https://www.facebook.com/shgtk",target="_blank")
-									img(src="./img/sns/facebook.svg", alt="facebook")
-							li
-								a(href="https://www.instagram.com/shgtkgram/",target="_blank")
-									img(src="./img/sns/insta.svg", alt="insta")
-							li
-								a(href="https://open.spotify.com/user/shgtk",target="_blank")
-									img(src="./img/sns/Spotify.svg", alt="Spotify")
-							li
-								a(href="https://suzuri.jp/shgtk",target="_blank")
-									img(src="./img/sns/suzuri.svg", alt="suzuri")
-				div.modal-cell
-					p.notosans.modal-content Through design,it provides essential and attractive digital experience.Always waiting for your offer & some great idea with Curry,Beer,Sauna,Indie Rock.#[br]#[br]Finally, This is teaser site.#[br]My portfolio site will be launched in this spring.#[br]Follow my social network accounts and wait a moment.
-				//- .author
-				//- 	p Text &ndash;
-				//- 	p <span>Lorem Ipsum</span>
-				//- .photographer
-				//- 	p Photo &ndash;
-				//- 	p <span>Lorem Ipsum</span>
-				//- .image
-				//- 	img(src="http://wallpaperlayer.com/img/2015/7/actor-wallpaper-4072-4293-hd-wallpapers.jpg")
-				//- .text
-				//- 	p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae harum, accusantium aliquid quia dolores error, fugit placeat ratione amet non nostrum necessitatibus soluta earum ipsum voluptate neque corporis asperiores modi. Placeat unde, autem voluptatibus sed repellendus consequuntur quia temporibus. Repellat sunt officia repudiandae amet quisquam saepe, qui impedit quibusdam beatae.
-				//- 	p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae harum, accusantium aliquid quia dolores error, fugit placeat ratione amet non nostrum necessitatibus soluta earum ipsum voluptate neque corporis asperiores modi. Placeat unde, autem voluptatibus sed repellendus consequuntur quia temporibus. Repellat sunt officia repudiandae amet quisquam saepe, qui impedit quibusdam beatae.
-					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae harum, accusantium aliquid quia dolores error, fugit placeat ratione amet non nostrum necessitatibus soluta earum ipsum voluptate neque corporis asperiores modi. Placeat unde, autem voluptatibus sed repellendus consequuntur quia temporibus. Repellat sunt officia repudiandae amet quisquam saepe, qui impedit quibusdam beatae.
-		//- footer
-		//- header
-		//- main
-		//- 	section
-		//- footer
-		
+							a(href="#")
+								img(src="./img/icon-facebook.png", alt="facebook")
+				p.copyright © STARONLINE inc.
+			a(href="#").back-btn back to top
+		script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js")
+		script(src="./js/slider.js")
 		script(src="https://code.jquery.com/jquery-2.2.4.min.js" ,integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" ,crossorigin="anonymous")
 		script(src="./js/tem.js")

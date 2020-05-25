@@ -11,71 +11,136 @@
     <meta property="og:site_name" content="間部さん"/>
     <meta property="og:title" content="間部さん"/>
     <meta property="og:description" content=""/>
-    <meta property="og:image" content=""/>
+    <meta property="og:image" content=""/><link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
     <link rel="stylesheet" href="./css/style.css"/>
-    <link rel="shortcut icon" href="./favicon.ico" type="image/vnd.microsoft.icon"/>
   </head>
   <body>
-    <div class="page-wrapper"><a class="contact" href="#">CONTACT</a><a class="hello" href="#" id="modal_button">HELLO</a>
-      <aside><img class="circle-map" src="./img/circle_map.svg" alt="circle"/><img class="circle" src="./img/circle_text.svg" alt="circle"/>
-        <section class="content">
-          <h1> <img src="./img/reprise_logo.svg" alt="Reprise"/></h1>
-          <h2 class="bio">THIS IS <br/>SHIGETAKA MABE <br/>PORTFOLIO WEBSITE</h2>
-          <h3 class="location">ART DIRECTOR / DIGITAL DESIGNER<br/>Based in East Tokyo</h3>
-        </section>
-        <div class="sns">
+    <header>
+      <div class="page-wrapper"><a class="logo" href="/"><img src="./img/logo.png" alt=""/></a>
+        <div class="float-right"><span class="menu"><img src="./img/icon-menu.png" alt="menu"/></span></div>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">SERVICE </a></li>
+          <li><a href="#">WORKS</a></li>
+          <li><a href="#">COMPANY</a></li>
+          <li><a href="#">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="news-section"><img class="sp" src="./img/img-kv-sp.jpg" alt=""/><img class="pc" src="./img/img-kv.jpg" alt=""/>
+        <div class="page-wrapper">
+          <h1>Advertise<br/>Strategy <br/>for OnlineShop</h1>
+          <h2>売上を上げるECコンサルティング</h2>
+        </div>
+        <div class="news">
+          <p class="news-title">NEWS</p>
+          <dl class="news-list">
+            <dt>2020.06.01</dt>
+            <dd>Webサイトをオープンしました。</dd>
+          </dl>
+        </div>
+      </section>
+      <section class="about-section">
+        <div class="page-wrapper">
+          <h3>what we are</h3>
+          <p><span class="wsnr">2020年現在、</span><span class="wsnr">消費者行動の多くがデジタルシフトし、</span><span class="wsnr">デジタルマーケティングが企業戦略の</span><span class="wsnr">中心になってきています。</span><span class="wsnr">しかし、</span><span class="wsnr">あらゆるデータが溢れてきている中、</span><span class="wsnr">データを有効活用して</span><span class="wsnr">消費者の生活を豊かにしている企業は</span><span class="wsnr">どのくらいあるでしょうか。</span></p>
+          <p><span class="wsnr">我々EC戦略のプロ集団 STARONLINEは、</span><span class="wsnr">データの価値を最大化し、</span><span class="wsnr">デジタルの可能性を拡大することが</span><span class="wsnr">人類の幸福に繋がると考えています。</span><span class="wsnr">そして、昨今の新型コロナウイルスが</span><span class="wsnr">もたらした生活環境の変化は、</span><span class="wsnr">結果としてより一層デジタルの価値を</span><span class="wsnr">再認識する機会となっているのでは</span><span class="wsnr">ないでしょうか。</span></p>
+          <p><span class="wsnr">デジタルマーケティングの未来を</span><span class="wsnr">アップデートする、ONLINEのSTAR、</span><span class="wsnr">私たちが”STARONLINE”です。</span></p>
+        </div>
+      </section>
+      <section class="service-section">
+        <div class="page-wrapper">
+          <h3>service</h3>
+          <p>データの価値を最大化するSTARONLINEの<span class="wsnr">事業内容</span>をご説明いたします。</p><a class="more-btn" href="#">view more</a>
+        </div>
+      </section>
+      <section class="works-section">
+        <div class="page-wrapper">
+          <h3>works</h3>
+          <p>データの価値を最大化する、STARONLINEの成功事例をご紹介いたします。</p>
+        </div>
+        <div class="swiper-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <dl>
+                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dd>
+                  <p>01</p>
+                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
+                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                </dd>
+              </dl>
+            </div>
+            <div class="swiper-slide">
+              <dl>
+                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dd>
+                  <p>02</p>
+                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
+                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                </dd>
+              </dl>
+            </div>
+            <div class="swiper-slide">
+              <dl>
+                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dd>
+                  <p>03</p>
+                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
+                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                </dd>
+              </dl>
+            </div>
+            <div class="swiper-slide">
+              <dl>
+                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dd>
+                  <p>03</p>
+                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
+                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                </dd>
+              </dl>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </section>
+      <section class="contact-section">
+        <div class="page-wrapper"><a href="#"><span>contact</span><span class="wsnr">ご依頼、お見積もりなど、</span><span class="wsnr">こちらからお問い合わせ下さい。</span></a></div>
+      </section>
+    </main>
+    <footer>
+      <div class="page-wrapper"><a class="logo" href="/"><img src="./img/logo-wh.png" alt=""/></a>
+        <p class="copy-en">Advertise<br/>Strategy <br/>for OnlineShop</p>
+        <div class="sitemap pc">
           <ul>
-            <li><a href="https://twitter.com/shgtk" target="_blank"><img src="./img/sns/twitter.svg" alt="twitter"/></a></li>
-            <li><a href="https://www.facebook.com/shgtk" target="_blank"><img src="./img/sns/facebook.svg" alt="facebook"/></a></li>
-            <li><a href="https://www.instagram.com/shgtkgram/" target="_blank"><img src="./img/sns/insta.svg" alt="insta"/></a></li>
-            <li><a href="https://open.spotify.com/user/shgtk" target="_blank"><img src="./img/sns/Spotify.svg" alt="Spotify"/></a></li>
-            <li><a href="https://suzuri.jp/shgtk" target="_blank"><img src="./img/sns/suzuri.svg" alt="suzuri"/></a></li>
+            <li><a href="#">SERVICE </a></li>
+            <li><a href="#">WORKS</a></li>
+            <li><a href="#">COMPANY</a></li>
+            <li><a href="#">CONTACT</a></li>
           </ul>
         </div>
-      </aside>
-      <article><img class="engaging" src="./img/img_engaging.jpg" alt="engaging"/>
-        <div class="works">
-          <div>
-            <h4>LATEST NUMBER</h4>
-            <ul>
-              <li><a href="https://green-ribbon.com/" target="_blank">GREEN RIBBON<img src="./img/work/greenribbon.png" alt="GREEN RIBBON"/></a></li>
-              <li><a href="https://awards.smartnews.com/" target="_blank">SMARTNEWS AWARDS<img src="./img/work/smartnews.png" alt="SMARTNEWS AWARDS"/></a></li>
-              <li><a href="https://fichvita.com/" target="_blank">FICHVITA<img src="./img/work/fichvita.png" alt="FICHVITA"/></a></li>
-              <li><a href="http://recruit.lifull.com/" target="_blank">LIFULL RECRUIT<img src="./img/work/lifull.png" alt="LIFULL RECRUIT"/></a></li>
-              <li><a href="http://www.sojitz-bizjet.com/" target="_blank">SOJITZ BUSINESS JET<img src="./img/work/sojitzbizjet.png" alt="SOJITZ BUSINESS JET"/></a></li>
-              <li><a href="https://www.hitachicm.com/global/jp/recruit/newgraduate/index.html" target="_blank">HITACHI KENKI</a></li>
-              <li><a href="https://ageha.tv/" target="_blank">AGEHA inc<img src="./img/work/ageha.png" alt="AGEHA inc"/></a></li>
-              <li><a href="https://ageha-recruit.tv/" target="_blank">AGEHA RECRUIT<img src="./img/work/ageharecruit.png" alt="AGEHA RECRUIT"/></a></li>
-            </ul>
-          </div>
+        <p class="copy-ja">売上を上げるECコンサルティング</p>
+        <div class="sns">
+          <ul>
+            <li><a href="#"><img src="./img/icon-twitter.png" alt="twitter"/></a></li>
+            <li><a href="#"><img src="./img/icon-facebook.png" alt="facebook"/></a></li>
+          </ul>
         </div>
-      </article>
-    </div>
-    <div class="modal"><a class="contact" href="#">CONTACT</a><a class="hello" href="#" id="modal_back">BACK</a>
-      <div class="modal-header">
-        <p class="modal-background">COMING SOON</p>
-        <p class="modal-title"><img src="./img/reprise_logo.svg" alt="Reprise"/></p>
-        <p class="modal-subtitle notosans">リプリーズドットトーキョー</p>
-        <p class="modal-reprise">reprise.tokyo</p>
-      </div>
-      <div class="modal-table">
-        <div class="modal-cell">
-          <p class="modal-about">HELLO EVERYTHING<br/>My name is SHIGETAKA MABE<br/>I’M ART DIRECTOR / DIGITAL DESIGNER<br/>Based in East Tokyo with my <span class="daughter">daughter</span>.</p>
-          <div class="sns">
-            <ul>
-              <li><a href="https://twitter.com/shgtk" target="_blank"><img src="./img/sns/twitter.svg" alt="twitter"/></a></li>
-              <li><a href="https://www.facebook.com/shgtk" target="_blank"><img src="./img/sns/facebook.svg" alt="facebook"/></a></li>
-              <li><a href="https://www.instagram.com/shgtkgram/" target="_blank"><img src="./img/sns/insta.svg" alt="insta"/></a></li>
-              <li><a href="https://open.spotify.com/user/shgtk" target="_blank"><img src="./img/sns/Spotify.svg" alt="Spotify"/></a></li>
-              <li><a href="https://suzuri.jp/shgtk" target="_blank"><img src="./img/sns/suzuri.svg" alt="suzuri"/></a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="modal-cell">
-          <p class="notosans modal-content">Through design,it provides essential and attractive digital experience.Always waiting for your offer & some great idea with Curry,Beer,Sauna,Indie Rock.<br/><br/>Finally, This is teaser site.<br/>My portfolio site will be launched in this spring.<br/>Follow my social network accounts and wait a moment.</p>
-        </div>
-      </div>
-    </div>
+        <p class="copyright">© STARONLINE inc.</p>
+      </div><a class="back-btn" href="#">back to top</a>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js"></script>
+    <script src="./js/slider.js"></script>
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
     <script src="./js/tem.js"></script>
   </body>
