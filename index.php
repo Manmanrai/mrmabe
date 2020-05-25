@@ -22,10 +22,10 @@
       </div>
       <nav>
         <ul>
-          <li><a href="#">SERVICE </a></li>
-          <li><a href="#">WORKS</a></li>
-          <li><a href="#">COMPANY</a></li>
-          <li><a href="#">CONTACT</a></li>
+          <li><a href="/service/">SERVICE </a></li>
+          <li><a href="/works/">WORKS</a></li>
+          <li><a href="/company/">COMPANY</a></li>
+          <li><a href="/company/#contact">CONTACT</a></li>
         </ul>
       </nav>
     </header>
@@ -71,7 +71,7 @@
                   <p>01</p>
                   <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
                   <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
-                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                  <div class="text-right"><a class="more-btn" href="/works/#works1">view more</a></div>
                 </dd>
               </dl>
             </div>
@@ -82,7 +82,7 @@
                   <p>02</p>
                   <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
                   <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
-                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                  <div class="text-right"><a class="more-btn" href="/works/#works2">view more</a></div>
                 </dd>
               </dl>
             </div>
@@ -93,7 +93,7 @@
                   <p>03</p>
                   <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
                   <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
-                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                  <div class="text-right"><a class="more-btn" href="/works/#works3">view more</a></div>
                 </dd>
               </dl>
             </div>
@@ -101,10 +101,10 @@
               <dl>
                 <dt><img src="./img/img-works-01.png" alt=""/></dt>
                 <dd>
-                  <p>03</p>
+                  <p>04</p>
                   <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
                   <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
-                  <div class="text-right"><a class="more-btn" href="#">view more</a></div>
+                  <div class="text-right"><a class="more-btn" href="/works/#works4">view more</a></div>
                 </dd>
               </dl>
             </div>
@@ -124,10 +124,10 @@
         <p class="copy-en">Advertise<br/>Strategy <br/>for OnlineShop</p>
         <div class="sitemap pc">
           <ul>
-            <li><a href="#">SERVICE </a></li>
-            <li><a href="#">WORKS</a></li>
-            <li><a href="#">COMPANY</a></li>
-            <li><a href="#">CONTACT</a></li>
+            <li><a href="/service/">SERVICE </a></li>
+            <li><a href="/works/">WORKS</a></li>
+            <li><a href="/company/">COMPANY</a></li>
+            <li><a href="/company/#contact">CONTACT</a></li>
           </ul>
         </div>
         <p class="copy-ja">売上を上げるECコンサルティング</p>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+html(lang="ja")
+	head
+		title company | 間部さん
+		meta(charset="UTF-8")
+		meta(name='keywords', keywords="")
+		meta(name='description', content="")
+		meta(name="viewport",content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0")
+		meta(property="og:type", content="website")
+		meta(property="og:locale", content="ja_JP")
+		meta(property="og:site_name", content='間部さん')
+		meta(property="og:title", content='間部さん')
+		meta(property="og:description", content="")
+		meta(property="og:image", content= '')
+		<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@800&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/css/swiper.min.css" />
+		link(rel="stylesheet",href="../css/style.css")
+		//- link(rel="shortcut icon", href="./favicon.ico", type="image/vnd.microsoft.icon")
+	body
+		header
+			.page-wrapper
+				a(href="/").logo
+					img(src="../img/logo.png", alt="")
+				.float-right
+					span.menu
+						img(src="../img/icon-menu.png", alt="menu")
+			nav
+				ul
+					li
+						a(href="/service/") SERVICE 
+					li
+						a(href="/works/") WORKS
+					li
+						a(href="/company/") COMPANY
+					li
+						a(href="/company/#contact") CONTACT
+		main
+			section.company-section
+				.page-wrapper
+					h1 company / contact
+					h2 会社概要・お問い合わせ
+			section.company-content
+				.sub-wrapper
+					h3#company company#[span 会社概要]
+					div.company-info
+						dl
+							dt 会社名
+							dd STARONLINE Co. Ltd.  
+						dl
+							dt 所在地
+							dd 〒142-0053
+								br
+								| 東京都品川区中延5-8-11 ディアコート202
+						dl
+							dt TEL
+							dd 090-7095-6170（代表）
+						dl
+							dt 代表
+							dd 巽 奈々恵
+						dl
+							dt 主要取引銀行
+							dd SBI銀行
+						dl
+							dt 資本金
+							dd 資本準備金1,000万円
+						dl
+							dt 事業内容
+							dd ・  デジタル戦略立案
+								br
+								| ・  ECコンサルティング
+								br
+								| ・  分析・解析業務
+								br
+								| ・  広告代理店業務
+								br
+								| ・  広告、宣伝に関する企画および制作
+								br
+								| ・  広告に使用する販売促進物の制作
+								br
+								| ・  販売促進活動に関するコンサルティング・制作
+								br
+								| ・  Webサイトデザイン制作・運営
+					h3#contact contact#[span お問い合わせ]
+					div.company-contact
+						p.must ★は必須項目です
+						dl
+							dt お名前★
+							dd
+								input(type="name")
+						dl
+							dt メールアドレス★
+							dd
+								input(type="email")
+						dl
+							dt 会社名★
+							dd
+								input(type="text")
+						dl
+							dt 電話番号★
+							dd
+								input(type="phone")
+						dl
+							dt 問い合わせ内容★
+							dd
+								textarea(name="", cols="30", rows="10")
+						dl
+							dt ご興味を持ったきっかけ
+							dd
+								textarea(name="", cols="30", rows="10")
+						dl
+							dt
+							dd
+								input(type="submit",value="送信する").submit-btn
+		footer
+			.page-wrapper
+				a(href="/").logo
+					img(src="../img/logo-wh.png", alt="")
+				p.copy-en Advertise
+					br
+					| Strategy 
+					br
+					| for OnlineShop
+				.sitemap.pc
+					ul
+						li
+							a(href="/service/") SERVICE 
+						li
+							a(href="/works/") WORKS
+						li
+							a(href="/company/") COMPANY
+						li
+							a(href="/company/#contact") CONTACT
+				p.copy-ja 売上を上げるECコンサルティング
+				div.sns
+					ul
+						li
+							a(href="#")
+								img(src="../img/icon-twitter.png", alt="twitter")
+						li
+							a(href="#")
+								img(src="../img/icon-facebook.png", alt="facebook")
+				p.copyright © STARONLINE inc.
+			a(href="#").back-btn back to top
+		//- script(src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.7/js/swiper.min.js")
+		//- script(src="../js/slider.js")
+		script(src="https://code.jquery.com/jquery-2.2.4.min.js" ,integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" ,crossorigin="anonymous")
+		script(src="../js/tem.js")
