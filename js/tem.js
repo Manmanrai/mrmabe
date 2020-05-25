@@ -5,12 +5,12 @@ $(function() {
 		if ($(this).hasClass('on')) {
 			$(this).find('img').attr('src', './img/icon-menu-close.png');
 			$('nav').addClass('on');
-			$('html, body').animate({scrollTop:0}, 1000, 'swing');
+			$('html, body').animate({scrollTop:0}, 0);
 			document.addEventListener('touchmove', handleTouchMove, { passive: false });
 		} else {
 			$(this).find('img').attr('src', './img/icon-menu.png');
 			$('nav').removeClass('on');
-			$('html, body').animate({scrollTop:0}, 1000, 'swing');
+			$('html, body').animate({scrollTop:0}, 0);
 			document.removeEventListener('touchmove', handleTouchMove, { passive: false });
 		}
 		
