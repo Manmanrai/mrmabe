@@ -77,33 +77,33 @@
             </div>
             <div class="swiper-slide">
               <dl>
-                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dt><img src="./img/img-works-02.png" alt="Maruni Online shop"/></dt>
                 <dd>
                   <p>02</p>
-                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
-                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <p>Maruni Online shop</p>
+                  <p>目標に対し200%を達成したECサイト改善</p>
                   <div class="text-right"><a class="more-btn" href="/works/#works2">view more</a></div>
                 </dd>
               </dl>
             </div>
             <div class="swiper-slide">
               <dl>
-                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dt><img src="./img/img-works-03.png" alt="日野製薬ONLINE SHOP"/></dt>
                 <dd>
                   <p>03</p>
-                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
-                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <p>日野製薬ONLINE SHOP</p>
+                  <p>改善からわずか2ヶ月で過去最大の月売上、日別でも過去最高を達成した ECサイト改善プロジェクト</p>
                   <div class="text-right"><a class="more-btn" href="/works/#works3">view more</a></div>
                 </dd>
               </dl>
             </div>
             <div class="swiper-slide">
               <dl>
-                <dt><img src="./img/img-works-01.png" alt=""/></dt>
+                <dt><img src="./img/img-works-04.png" alt="プロの副業"/></dt>
                 <dd>
                   <p>04</p>
-                  <p>Snow Peak FIELD SUITE HAKUBA KITAONE KOGEN</p>
-                  <p>初年度から多くの集客に成功したSnow Peakブランドの高級グランピング施設のオフィシャルサイト制作</p>
+                  <p>プロの副業</p>
+                  <p>約8ヶ月で3000フォロワーを増やしたTwitter戦略立案</p>
                   <div class="text-right"><a class="more-btn" href="/works/#works4">view more</a></div>
                 </dd>
               </dl>

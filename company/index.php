@@ -20,7 +20,7 @@
       <div class="page-wrapper"><a class="logo" href="/"><img src="../img/logo.png" alt=""/></a>
         <div class="float-right"><span class="menu"><img src="../img/icon-menu.png" alt="menu"/></span></div>
       </div>
-      <nav>
+      <nav class="sub">
         <ul>
           <li><a href="/service/">SERVICE </a></li>
           <li><a href="/works/">WORKS</a></li>
