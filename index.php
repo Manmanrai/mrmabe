@@ -115,7 +115,8 @@
         </div>
       </section>
       <section class="contact-section">
-        <div class="page-wrapper"><a href="#"><span>contact</span><span class="wsnr">ご依頼、お見積もりなど、</span><span class="wsnr">こちらからお問い合わせ下さい。</span></a></div>
+        <div class="page-wrapper"><a href="#"><span>contact</span><span class="wsnr">ご依頼、お見積もりなど、</span>
+            <wbr/><span class="wsnr">こちらからお問い合わせ下さい。</span></a></div>
       </section>
     </main>
     <footer>
